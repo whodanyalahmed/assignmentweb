@@ -2,6 +2,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: montserrat;
 }
 html {
   scroll-behavior: smooth;
@@ -51,6 +52,7 @@ main {
   font-size: 13px;
   color: #eee;
   background-color: #030303;
+  
 }
 .mainfooter div {
   display: inline-block;
@@ -59,11 +61,14 @@ iframe {
   min-height: 80vh;
 }
 #container {
+  /* position: relative;
+  left: 150px; */
   position: relative;
-  left: 150px;
+  left:10%;
   padding: 20px 0px;
 }
 #container div {
+
   padding: 30px;
 }
 .mainfooter h2 {
@@ -153,13 +158,9 @@ iframe {
   left: 0;
   right: 0;
   background-color: #3a3a3a1f;
-  overflow: hidden;
-  width: 0;
+  width: 100%;
   height: 100%;
   transition: 0.5s ease;
-}
-.breadcrumb:hover .overlay {
-  width: 100%;
 }
 .text {
   color: white;
@@ -170,7 +171,7 @@ iframe {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  white-space: nowrap;
+  
 }
 
 .headerlinks {
@@ -179,21 +180,36 @@ iframe {
   transition: 0.5s ease;
 }
 
-.headerlinks:hover{
-    color:#f7b513;
-    padding:5px;
+.headerlinks:hover {
+  color: #f7b513;
+  padding: 5px;
 }
 
-
-#reach{
-    font-weight:100;
-    text-align:center;
-    padding-top:50px;
-    font-family:'montserrat';
+#reach {
+  font-weight: 100;
+  text-align: center;
+  padding-top: 50px;
+  font-family: "montserrat";
 }
 
-#findloc{
-    padding-bottom:40px;
-    text-align:center;
-    font-family: 'montserrat';
+#findloc {
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: "montserrat";
+}
+
+#formhead {
+  width: 1200px;
+  margin: 0 auto;
+}
+#contactform div{
+  padding:20px;
+  display: inline-block;
+}
+#contactform div label{
+  padding-bottom:15px;
+}
+textarea{
+  resize:none;
+  margin-bottom:80px;
 }
