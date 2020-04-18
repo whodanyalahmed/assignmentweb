@@ -11,6 +11,42 @@ nav {
   background: #282d31;
   padding-left: 50px;
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  margin-top:19px;
+  background-color: #f9f9f9;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding:20px 16px;
+}
+.dropdown-content p a{
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+  color:#f7b513;
+}
+
+.dropdown-content p a:hover{
+  text-decoration: none;
+  color:#282d31;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#social td a{
+  color:#ccc;
+  transition: 0.5s ease;
+}
+#social td a:hover{
+  color:#f7b513;
+}
 nav ul {
   list-style: none;
   padding: 20px;
@@ -21,15 +57,16 @@ nav ul {
 li {
   display: inline-block;
 }
-nav li a {
+nav ul li > a {
   background: #282d31;
   color: #eee;
   text-decoration: none;
   padding: 20px !important;
 }
-nav li a:hover {
+nav ul li > a:hover {
   background-color: #f7b513;
   color: #282d31;
+  text-decoration: none;
 }
 .active {
   color: #f7b513;
@@ -212,4 +249,16 @@ iframe {
 textarea{
   resize:none;
   margin-bottom:80px;
+}
+#admnum{
+  text-align: center;
+}
+#admnum div{
+  font-size: 1.5em;
+  padding:30px 50px;
+  display:inline-block;
+}
+hr{
+  margin:20px 40px;
+  border:1px solid #282d31;
 }
