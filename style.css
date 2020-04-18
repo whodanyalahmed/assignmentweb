@@ -45,6 +45,7 @@ nav li a:hover {
 
 main {
   min-height: 70vh;
+  margin-top:-10px;
 }
 .mainfooter {
   margin-top: -10px;
