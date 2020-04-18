@@ -183,3 +183,17 @@ iframe {
     color:#f7b513;
     padding:5px;
 }
+
+
+#reach{
+    font-weight:100;
+    text-align:center;
+    padding-top:50px;
+    font-family:'montserrat';
+}
+
+#findloc{
+    padding-bottom:40px;
+    text-align:center;
+    font-family: 'montserrat';
+}
