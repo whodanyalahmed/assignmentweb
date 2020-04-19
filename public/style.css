@@ -67,6 +67,7 @@ nav ul li > a:hover {
   background-color: #f7b513;
   color: #282d31;
   text-decoration: none;
+  padding:20px !important;
 }
 .active {
   color: #f7b513;
